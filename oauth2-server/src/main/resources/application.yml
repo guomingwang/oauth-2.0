@@ -1,0 +1,12 @@
+server:
+  port: 2002
+
+spring:
+  application:
+    name: oauth2-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2001/eureka/
+
