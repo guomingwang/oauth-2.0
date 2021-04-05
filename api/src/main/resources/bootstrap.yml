@@ -1,0 +1,17 @@
+server:
+  port: 2007
+
+spring:
+  application:
+    name: api
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2001/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
